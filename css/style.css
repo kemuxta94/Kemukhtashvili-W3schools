@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color: #059862;
+}
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logow3{
+    width: 75px;
+    height: 77px;
+}
+.login{
+    float: right;
+    text-decoration: none;
+    width: 130px;
+    background-color: var(--color);
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.login:hover{
+    color: white;
+    background-color: #0a7950;
+}
+/* navigation bar */
+nav{
+    height: 44.5px;
+}
+.home-logo{
+    width: 21px;
+    height: 21px;
+}
+.color li{
+    height: 100%;
+}
+.color li a:hover{
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+.color li a{
+    color: white;
+    margin-left: 20px;
+}
+.wraper{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn-are{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-are a{
+    text-decoration: none;
+    background-color: var(--color);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid var(--color);
+    font-size: 18px;
+    padding: 8px 19px;
+}
+.btn-are a:hover{
+    color: white;
+    background-color: #0a7950;
+}
+.textarea{
+    width: 72%;
+    height: 40%;
+    background-color: #D9EEE1;
+    margin-top: 20px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.textarea p{
+    color: #000;
+    font-size: 15px;
+}
+.textarea a{
+    font-size: 18px;
+    text-decoration: none;
+    max-width: 280px;
+    background-color: #059862;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.textarea a:hover{
+    color: white;
+    background-color: #0a7950;
+}
+
